@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: api-feed
-        image: thomas1y/udagram-api-feed:v3
+        image: thomas1y/udagram-api-feed
         volumeMounts:
          - mountPath: "/root/.aws/"
            name: udagram-aws
